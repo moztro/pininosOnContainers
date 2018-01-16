@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  catalog.api:
+    image: catalog.api
+    build:
+      context: .
+      dockerfile: src\Services\Catalog\Catalog.API\Dockerfile
