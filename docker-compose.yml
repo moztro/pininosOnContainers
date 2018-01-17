@@ -6,3 +6,17 @@ services:
     build:
       context: .
       dockerfile: src/Services/Delivery/Delivery.API/Dockerfile
+
+  webmvc:
+    image: webmvc
+    build:
+      context: .
+      dockerfile: src/Web/MVC/WebMVC/Dockerfile
+
+
+  catalog.api:
+    image: catalog.api
+    build:
+      context: .
+      dockerfile: src/Services/Catalog/Catalog.API/Dockerfile
+

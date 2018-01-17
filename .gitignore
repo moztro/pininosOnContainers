@@ -6,3 +6,8 @@
 /obj
 /src/Services/Delivery/Delivery.API/bin/Debug/netcoreapp2.0
 /src/Services/Delivery/Delivery.API/obj
+/.vs
+/src/Mobile/pininosApp/pininosApp.Android/obj
+/src/Mobile/pininosApp/pininosApp.iOS/obj/iPhone/Debug
+/src/Services/Catalog/Catalog.API/obj
+/src/Web/MVC/WebMVC/obj
