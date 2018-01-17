@@ -1,8 +1,8 @@
 version: '3'
 
 services:
-  catalog.api:
-    image: catalog.api
+  delivery.api:
+    image: delivery.api
     build:
       context: .
-      dockerfile: src\Services\Catalog\Catalog.API\Dockerfile
+      dockerfile: src/Services/Delivery/Delivery.API/Dockerfile

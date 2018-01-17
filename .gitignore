@@ -2,6 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/src/Services/Catalog/Catalog.API/obj
-/src/Services/Catalog/Catalog.API/bin
-/.vs
+/.vs/pininosOnContainers/v15/Server/sqlite3
+/obj
+/src/Services/Delivery/Delivery.API/bin/Debug/netcoreapp2.0
+/src/Services/Delivery/Delivery.API/obj
