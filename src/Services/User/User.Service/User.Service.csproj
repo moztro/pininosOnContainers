@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\User.Data\User.Data.csproj" />
-    <ProjectReference Include="..\ContainersModel\ContainersModel.csproj" />
+    <ProjectReference Include="..\..\..\..\ContainersModel\ContainersModel.csproj" />
+    <ProjectReference Include="..\..\..\Data\User\User.Data\User.Data.csproj" />
   </ItemGroup>
 
 </Project>
