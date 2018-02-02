@@ -1,0 +1,9 @@
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\bin\Debug\netcoreapp2.0\ContainersModel.deps.json
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\bin\Debug\netcoreapp2.0\ContainersModel.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\bin\Debug\netcoreapp2.0\ContainersModel.pdb
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\obj\Debug\netcoreapp2.0\ContainersModel.csproj.CoreCompileInputs.cache
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\obj\Debug\netcoreapp2.0\ContainersModel.AssemblyInfoInputs.cache
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\obj\Debug\netcoreapp2.0\ContainersModel.AssemblyInfo.cs
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\obj\Debug\netcoreapp2.0\ContainersModel.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\obj\Debug\netcoreapp2.0\ContainersModel.pdb
+C:\Users\fernando.canul\source\repos\pininosOnContainers\ContainersModel\obj\Debug\netcoreapp2.0\ContainersModel.csprojResolveAssemblyReference.cache

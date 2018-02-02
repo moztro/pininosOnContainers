@@ -8,7 +8,8 @@ import { Http } from '@angular/http';
 export class FetchDataComponent {
     public forecasts: WeatherForecast[];
 
-    constructor(http: Http, @Inject('BASE_URL') baseUrl: string) {
+    constructor(http: Http, @Inject('API_URL') baseUrl: string) {
+        console.log(baseUrl);
         http.get(baseUrl + 'api/SampleData/WeatherForecasts').subscribe(result => {
             this.forecasts = result.json() as WeatherForecast[];
         }, error => console.error(error));

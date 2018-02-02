@@ -20,3 +20,10 @@ services:
       context: .
       dockerfile: src/Services/Catalog/Catalog.API/Dockerfile
 
+
+  user.api:
+    image: user.api
+    build:
+      context: .
+      dockerfile: ..\User.API\Dockerfile
+

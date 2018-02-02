@@ -1,0 +1,13 @@
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\obj\Debug\netcoreapp2.0\User.API.csproj.CoreCompileInputs.cache
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\obj\Debug\netcoreapp2.0\User.API.AssemblyInfoInputs.cache
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\obj\Debug\netcoreapp2.0\User.API.AssemblyInfo.cs
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\bin\Debug\netcoreapp2.0\User.API.deps.json
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\bin\Debug\netcoreapp2.0\User.API.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\bin\Debug\netcoreapp2.0\User.API.pdb
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\bin\Debug\netcoreapp2.0\ContainersModel.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\bin\Debug\netcoreapp2.0\User.Data.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\bin\Debug\netcoreapp2.0\User.Data.pdb
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\bin\Debug\netcoreapp2.0\ContainersModel.pdb
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\obj\Debug\netcoreapp2.0\User.API.csprojResolveAssemblyReference.cache
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\obj\Debug\netcoreapp2.0\User.API.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\User.API\obj\Debug\netcoreapp2.0\User.API.pdb
