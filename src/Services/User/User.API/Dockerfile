@@ -1,14 +1,14 @@
-FROM microsoft/aspnetcore:2.0-nanoserver-sac2016 AS base
+FROM microsoft/aspnetcore:2.0 AS base
 WORKDIR /app
 EXPOSE 80
 
-FROM microsoft/aspnetcore-build:2.0-nanoserver-sac2016 AS build
+FROM microsoft/aspnetcore-build:2.0 AS build
 WORKDIR /src
 COPY *.sln ./
-COPY ../User.API/User.API.csproj ../User.API/
+COPY src/Services/User/User.API/User.API.csproj src/Services/User/User.API/
 RUN dotnet restore
 COPY . .
-WORKDIR /src/../User.API
+WORKDIR /src/src/Services/User/User.API
 RUN dotnet build -c Release -o /app
 
 FROM build AS publish

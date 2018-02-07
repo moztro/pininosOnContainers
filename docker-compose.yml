@@ -25,12 +25,5 @@ services:
     image: user.api
     build:
       context: .
-      dockerfile: ..\User.API\Dockerfile
-
-
-  user.api_:
-    image: user.api_
-    build:
-      context: .
-      dockerfile: ..\User.API_\Dockerfile
+      dockerfile: src/Services/User/User.API/Dockerfile
 
