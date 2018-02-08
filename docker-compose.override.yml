@@ -20,3 +20,11 @@ services:
     ports:
       - "80"
 
+
+  user.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  

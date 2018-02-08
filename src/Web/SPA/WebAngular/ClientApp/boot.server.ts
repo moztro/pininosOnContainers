@@ -13,6 +13,7 @@ export default createServerRenderer(params => {
     const providers = [
         { provide: INITIAL_CONFIG, useValue: { document: '<app></app>', url: params.url } },
         { provide: APP_BASE_HREF, useValue: params.baseUrl },
+        { provide: 'API_URL', useValue: params.data.apiUrl },
         { provide: 'BASE_URL', useValue: params.origin + params.baseUrl },
     ];
 
@@ -20,7 +21,7 @@ export default createServerRenderer(params => {
         const appRef: ApplicationRef = moduleRef.injector.get(ApplicationRef);
         const state = moduleRef.injector.get(PlatformState);
         const zone = moduleRef.injector.get(NgZone);
-
+        
         return new Promise<RenderResult>((resolve, reject) => {
             zone.onError.subscribe((errorInfo: any) => reject(errorInfo));
             appRef.isStable.first(isStable => isStable).subscribe(() => {
@@ -28,7 +29,8 @@ export default createServerRenderer(params => {
                 // completing the request in case there's an error to report
                 setImmediate(() => {
                     resolve({
-                        html: state.renderToString()
+                        html: state.renderToString(),
+                        globals: { url_Config: params.data }
                     });
                     moduleRef.destroy();
                 });

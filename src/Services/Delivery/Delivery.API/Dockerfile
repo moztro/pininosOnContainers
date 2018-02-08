@@ -1,16 +1,21 @@
-FROM microsoft/dotnet:2.0-sdk AS build-env
+FROM microsoft/aspnetcore:2.0 AS base
 WORKDIR /app
+EXPOSE 80
 
 # copy csproj and restore as distinct layers
-COPY *.csproj ./
+FROM microsoft/aspnetcore-build:2.0 AS build
+WORKDIR /src
+COPY *.sln ./
+COPY src/Services/Delivery/Delivery.API/Delivery.API.csproj src/Services/Delivery/Delivery.API/
 RUN dotnet restore
+COPY . .
+WORKDIR /src/src/Services/Delivery/Delivery.API
+RUN dotnet build -c Release -o /app
 
-# copy everything else and build
-COPY . ./
-RUN dotnet publish -c Release -o out
+FROM build AS publish
+RUN dotnet publish -c Release -o /app
 
-# build runtime image
-FROM microsoft/dotnet:2.0-runtime 
+FROM base AS final
 WORKDIR /app
-COPY --from=build-env /app/out ./
+COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "Delivery.API.dll"]

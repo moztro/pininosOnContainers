@@ -1,0 +1,11 @@
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\obj\Debug\netcoreapp2.0\User.Data.csprojResolveAssemblyReference.cache
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\obj\Debug\netcoreapp2.0\User.Data.csproj.CoreCompileInputs.cache
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\obj\Debug\netcoreapp2.0\User.Data.AssemblyInfoInputs.cache
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\obj\Debug\netcoreapp2.0\User.Data.AssemblyInfo.cs
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\bin\Debug\netcoreapp2.0\User.Data.deps.json
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\bin\Debug\netcoreapp2.0\User.Data.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\bin\Debug\netcoreapp2.0\User.Data.pdb
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\bin\Debug\netcoreapp2.0\ContainersModel.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\bin\Debug\netcoreapp2.0\ContainersModel.pdb
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\obj\Debug\netcoreapp2.0\User.Data.dll
+C:\Users\fernando.canul\source\repos\pininosOnContainers\src\Data\User\User.Data\obj\Debug\netcoreapp2.0\User.Data.pdb
