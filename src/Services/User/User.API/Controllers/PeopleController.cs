@@ -24,21 +24,23 @@ namespace User.API.Controllers
 
         // GET: api/People
         [HttpGet]
-        public async Task<IEnumerable<Person>> Get()
+        public async Task<IActionResult> Get()
         {
-            return await peopleService.GetAll();
+            var people = await peopleService.GetAll();
+            return Ok(people);
         }
 
         // GET: api/People/5
         [HttpGet("{id}", Name = "Get")]
-        public async Task<Person> Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            return await peopleService.Get(id);
+            var person = await peopleService.Get(id);
+            return Ok(person);
         }
         
         // POST: api/People
         [HttpPost]
-        public async void Post([FromBody]Person person)
+        public async Task<IActionResult> Post([FromBody]Person person)
         {
             if (person.Id == 0)
             {
@@ -55,13 +57,16 @@ namespace User.API.Controllers
                 throw new Exception("entity");
             }
             await peopleService.Update(personOld);
+
+            return Ok(personOld);
         }
         
         // PUT: api/People/5
         [HttpPut()]
-        public async void Put([FromBody]Person person)
+        public async Task<IActionResult> Put([FromBody]Person person)
         {
             await peopleService.Insert(person);
+            return Ok(person);
         }
         
         // DELETE: api/ApiWithActions/5

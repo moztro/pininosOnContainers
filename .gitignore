@@ -11,3 +11,24 @@
 /src/Mobile/pininosApp/pininosApp.iOS/obj/iPhone/Debug
 /src/Services/Catalog/Catalog.API/obj
 /src/Web/MVC/WebMVC/obj
+/ContainersModel/bin/Release/netcoreapp2.0
+/ContainersModel/obj/Debug/netcoreapp2.0
+/ContainersModel/obj/Release/netcoreapp2.0
+/ContainersModel/obj/ContainersModel.csproj.nuget.cache
+/src/Data/User/User.Data/bin/Release/netcoreapp2.0
+/src/Data/User/User.Data/obj/Debug/netcoreapp2.0
+/src/Data/User/User.Data/obj/Release/netcoreapp2.0
+/src/Services/Catalog/Catalog.API/bin/Release/netcoreapp2.0
+/src/Services/Delivery/Delivery.API/bin/Release/netcoreapp2.0
+/src/Services/User/User.API/bin/Any CPU/Release/netcoreapp2.0
+/src/Services/User/User.API/bin/Release/netcoreapp2.0
+/src/Services/User/User.API/obj/Any CPU/Release/netcoreapp2.0
+/src/Services/User/User.API/obj/Debug/netcoreapp2.0
+/src/Services/User/User.API/obj/Docker/publish
+/src/Services/User/User.API/obj/Docker
+/src/Services/User/User.API/obj/Release/netcoreapp2.0/PubTmp/Out
+/src/Services/User/User.API/obj/Release/netcoreapp2.0
+/src/Services/User/User.Service/bin/Release/netcoreapp2.0
+/src/Services/User/User.Service/obj/Debug/netcoreapp2.0
+/src/Services/User/User.Service/obj/Release/netcoreapp2.0
+/src/Web/MVC/WebMVC/bin/Release/netcoreapp2.0

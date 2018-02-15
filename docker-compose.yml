@@ -27,3 +27,9 @@ services:
       context: .
       dockerfile: src/Services/User/User.API/Dockerfile
 
+
+  webangular:
+    image: webangular
+    build:
+      context: ./src/Web/SPA/WebAngular
+      dockerfile: Dockerfile

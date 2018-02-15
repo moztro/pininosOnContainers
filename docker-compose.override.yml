@@ -28,3 +28,8 @@ services:
       - "80"
 
   
+  webangular:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
